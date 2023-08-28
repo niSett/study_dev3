@@ -1,0 +1,14 @@
+{
+    "name": "admin/htdocs",
+    "authors": [
+        {
+            "name": "nSett"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
