@@ -21,10 +21,10 @@ use app\core\Request;
         }
         public function handleContact(Request $request) {
             $body = $request->getBody();
-            echo '<pre>';
-            var_dump($body);
-            echo '</pre>';
-            exit;
+            //echo '<pre>';
+            //var_dump($body);
+            //echo '</pre>';
+            //exit;
             return 'Handling submitted data';
         }
     }
